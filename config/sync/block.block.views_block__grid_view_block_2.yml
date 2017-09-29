@@ -1,0 +1,30 @@
+uuid: 3f763255-07c1-46cc-ab33-20b40151429f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.grid_view
+  module:
+    - system
+    - views
+  theme:
+    - d8structure
+id: views_block__grid_view_block_2
+theme: d8structure
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:grid_view-block_2'
+settings:
+  id: 'views_block:grid_view-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /grid-view-without-label
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,27 @@
+uuid: f3cff823-8487-4ae4-893b-ed8128f31f3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.inline_comment_form
+    - field.field.comment.inline_comment_form.comment_body
+  module:
+    - text
+id: comment.inline_comment_form.default
+targetEntityType: comment
+bundle: inline_comment_form
+mode: default
+content:
+  comment_body:
+    label: inline
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,20 @@
+uuid: 86db4a5b-08f1-4cb5-933f-89d886d19196
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_autocomplete_inline
+field_name: field_autocomplete_inline
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

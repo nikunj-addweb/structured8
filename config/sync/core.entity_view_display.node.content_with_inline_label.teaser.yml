@@ -1,0 +1,28 @@
+uuid: 805ae886-615f-4057-b520-eae6459e59a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.content_with_inline_label.body
+    - node.type.content_with_inline_label
+  module:
+    - text
+    - user
+id: node.content_with_inline_label.teaser
+targetEntityType: node
+bundle: content_with_inline_label
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

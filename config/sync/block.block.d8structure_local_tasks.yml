@@ -1,0 +1,22 @@
+uuid: df8f33f0-b050-4fe3-b3cc-dd8e681c1fec
+langcode: en
+status: true
+dependencies:
+  theme:
+    - d8structure
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: d8structure_local_tasks
+theme: d8structure
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

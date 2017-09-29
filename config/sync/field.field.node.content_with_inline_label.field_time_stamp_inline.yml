@@ -1,0 +1,21 @@
+uuid: 7e16db86-7f7d-41a8-9322-aaf4facb9181
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_stamp_inline
+    - node.type.content_with_inline_label
+id: node.content_with_inline_label.field_time_stamp_inline
+field_name: field_time_stamp_inline
+entity_type: node
+bundle: content_with_inline_label
+label: 'Time stamp Inline'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1506413184
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

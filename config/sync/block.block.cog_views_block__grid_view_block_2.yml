@@ -1,0 +1,30 @@
+uuid: 51da97a1-848a-4d60-a8a1-0a2347647d9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.grid_view
+  module:
+    - system
+    - views
+  theme:
+    - cog
+id: cog_views_block__grid_view_block_2
+theme: cog
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:grid_view-block_2'
+settings:
+  id: 'views_block:grid_view-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /grid-view-without-label
+    negate: false
+    context_mapping: {  }

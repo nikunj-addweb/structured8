@@ -1,0 +1,28 @@
+uuid: d37ceadb-8be2-48e4-be3e-3dcef653c6cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_select_type_hidden
+    - node.type.content_with_hidden_label
+    - taxonomy.vocabulary.select_field_type
+id: node.content_with_hidden_label.field_select_type_hidden
+field_name: field_select_type_hidden
+entity_type: node
+bundle: content_with_hidden_label
+label: 'Select Type Hidden'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      select_field_type: select_field_type
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

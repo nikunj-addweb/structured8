@@ -1,0 +1,19 @@
+uuid: 118f378b-a73d-478f-b016-2e7f211e500c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_hidden
+    - node.type.content_with_hidden_label
+id: node.content_with_hidden_label.field_email_hidden
+field_name: field_email_hidden
+entity_type: node
+bundle: content_with_hidden_label
+label: 'Email Hidden'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

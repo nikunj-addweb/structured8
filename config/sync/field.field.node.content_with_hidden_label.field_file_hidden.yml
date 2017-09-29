@@ -1,0 +1,27 @@
+uuid: f511a70a-d7a0-492b-a7bd-dfef46b0ccd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file_hidden
+    - node.type.content_with_hidden_label
+  module:
+    - file
+id: node.content_with_hidden_label.field_file_hidden
+field_name: field_file_hidden
+entity_type: node
+bundle: content_with_hidden_label
+label: 'File Hidden'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

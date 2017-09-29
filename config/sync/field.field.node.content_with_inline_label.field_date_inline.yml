@@ -1,0 +1,21 @@
+uuid: 12f8bd3a-21fa-4da8-846e-d5d7c606f344
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_inline
+    - node.type.content_with_inline_label
+  module:
+    - datetime
+id: node.content_with_inline_label.field_date_inline
+field_name: field_date_inline
+entity_type: node
+bundle: content_with_inline_label
+label: 'Date inline'
+description: 'This is date field with inline label.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

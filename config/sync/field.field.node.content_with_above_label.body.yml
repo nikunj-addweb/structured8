@@ -1,0 +1,22 @@
+uuid: b3fe4d53-48d4-4572-a0cf-308ed4a716b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.content_with_above_label
+  module:
+    - text
+id: node.content_with_above_label.body
+field_name: body
+entity_type: node
+bundle: content_with_above_label
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

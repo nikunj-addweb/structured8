@@ -1,0 +1,22 @@
+uuid: 4464c6dc-6007-4592-9c09-a15dc09dcd0a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - d8structure
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: d8structure_breadcrumbs
+theme: d8structure
+region: navigation
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

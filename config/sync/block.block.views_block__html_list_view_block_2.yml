@@ -1,0 +1,30 @@
+uuid: caee6fbb-4d8f-401b-a018-ed0b60e9d328
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.html_list_view
+  module:
+    - system
+    - views
+  theme:
+    - d8structure
+id: views_block__html_list_view_block_2
+theme: d8structure
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:html_list_view-block_2'
+settings:
+  id: 'views_block:html_list_view-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /html-list-view-without-label
+    negate: false
+    context_mapping: {  }

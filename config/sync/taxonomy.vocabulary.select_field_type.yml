@@ -1,0 +1,9 @@
+uuid: 9251a4d2-a7a6-4b7b-87f8-6374e8d02524
+langcode: en
+status: true
+dependencies: {  }
+name: 'Select field Type'
+vid: select_field_type
+description: ''
+hierarchy: 0
+weight: 0

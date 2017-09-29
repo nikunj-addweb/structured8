@@ -1,0 +1,28 @@
+uuid: f142c2e6-0a05-41ff-b3bd-b368668d7c23
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.content_with_hidden_label.body
+    - node.type.content_with_hidden_label
+  module:
+    - text
+    - user
+id: node.content_with_hidden_label.teaser
+targetEntityType: node
+bundle: content_with_hidden_label
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,28 @@
+uuid: c1880bae-6ada-4aba-b6b0-1393628ee598
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autocomplete_above
+    - node.type.content_with_above_label
+    - taxonomy.vocabulary.select_field_type
+id: node.content_with_above_label.field_autocomplete_above
+field_name: field_autocomplete_above
+entity_type: node
+bundle: content_with_above_label
+label: 'Autocomplete Above'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      select_field_type: select_field_type
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

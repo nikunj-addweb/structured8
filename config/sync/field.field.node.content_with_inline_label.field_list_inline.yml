@@ -1,0 +1,21 @@
+uuid: 800f4054-ef9b-41ce-9400-1965e3659cc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_inline
+    - node.type.content_with_inline_label
+  module:
+    - options
+id: node.content_with_inline_label.field_list_inline
+field_name: field_list_inline
+entity_type: node
+bundle: content_with_inline_label
+label: 'List inline'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

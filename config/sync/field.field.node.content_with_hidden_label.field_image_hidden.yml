@@ -1,0 +1,38 @@
+uuid: ff1df18f-ec16-422c-8e3c-980e8c41109a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_hidden
+    - node.type.content_with_hidden_label
+  module:
+    - image
+id: node.content_with_hidden_label.field_image_hidden
+field_name: field_image_hidden
+entity_type: node
+bundle: content_with_hidden_label
+label: 'Image Hidden'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

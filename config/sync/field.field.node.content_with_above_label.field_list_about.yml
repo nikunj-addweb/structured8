@@ -1,0 +1,21 @@
+uuid: 3fc0c1b0-5b46-4c55-b80c-8f6951c1d487
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_about
+    - node.type.content_with_above_label
+  module:
+    - options
+id: node.content_with_above_label.field_list_about
+field_name: field_list_about
+entity_type: node
+bundle: content_with_above_label
+label: 'List Above'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

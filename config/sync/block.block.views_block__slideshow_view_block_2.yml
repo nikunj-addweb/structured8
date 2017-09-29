@@ -1,0 +1,30 @@
+uuid: 6c410179-6e3f-47d4-9d78-83e7875a87fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.slideshow_view
+  module:
+    - system
+    - views
+  theme:
+    - d8structure
+id: views_block__slideshow_view_block_2
+theme: d8structure
+region: content
+weight: 2
+provider: null
+plugin: 'views_block:slideshow_view-block_2'
+settings:
+  id: 'views_block:slideshow_view-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /slideshow-view-without-field-label
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,28 @@
+uuid: b8ecc3b8-0d17-4bf0-ab57-7c99f294e0fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_select_type_inline
+    - node.type.content_with_inline_label
+    - taxonomy.vocabulary.select_field_type
+id: node.content_with_inline_label.field_select_type_inline
+field_name: field_select_type_inline
+entity_type: node
+bundle: content_with_inline_label
+label: 'Select Type Inline'
+description: 'Please select the field type from here for this field'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      select_field_type: select_field_type
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

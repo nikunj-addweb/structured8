@@ -1,0 +1,33 @@
+uuid: 9c6eaa92-327a-4c16-95dc-19c23d2a2c5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_comment_inline
+    - node.type.content_with_inline_label
+  module:
+    - comment
+id: node.content_with_inline_label.field_comment_inline
+field_name: field_comment_inline
+entity_type: node
+bundle: content_with_inline_label
+label: 'Comment Inline'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 2
+    cid: 0
+    last_comment_timestamp: 0
+    last_comment_name: null
+    last_comment_uid: 0
+    comment_count: 0
+default_value_callback: ''
+settings:
+  default_mode: 1
+  per_page: 50
+  anonymous: 0
+  form_location: true
+  preview: 1
+field_type: comment

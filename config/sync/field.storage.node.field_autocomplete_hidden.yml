@@ -1,0 +1,20 @@
+uuid: ec03f32b-ddde-4322-a083-0c0d8fc80e8b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_autocomplete_hidden
+field_name: field_autocomplete_hidden
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

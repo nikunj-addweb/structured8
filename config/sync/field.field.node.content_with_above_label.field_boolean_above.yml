@@ -1,0 +1,23 @@
+uuid: 1d8bf083-5ce0-4761-9b75-273d8e4094a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_boolean_above
+    - node.type.content_with_above_label
+id: node.content_with_above_label.field_boolean_above
+field_name: field_boolean_above
+entity_type: node
+bundle: content_with_above_label
+label: 'Boolean Above'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

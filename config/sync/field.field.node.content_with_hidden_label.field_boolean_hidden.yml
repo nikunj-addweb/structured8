@@ -1,0 +1,23 @@
+uuid: 444a19b1-c1cf-441c-9a42-b6089662d72b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_boolean_hidden
+    - node.type.content_with_hidden_label
+id: node.content_with_hidden_label.field_boolean_hidden
+field_name: field_boolean_hidden
+entity_type: node
+bundle: content_with_hidden_label
+label: 'Boolean Hidden'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

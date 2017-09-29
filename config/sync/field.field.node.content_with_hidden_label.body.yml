@@ -1,0 +1,22 @@
+uuid: 46d9293a-0aea-4b4e-a22d-cb8f1d5363fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.content_with_hidden_label
+  module:
+    - text
+id: node.content_with_hidden_label.body
+field_name: body
+entity_type: node
+bundle: content_with_hidden_label
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

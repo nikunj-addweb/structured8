@@ -1,0 +1,21 @@
+uuid: 0ac16418-6ccd-4810-9036-f09787d8cc82
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_stamp_above
+    - node.type.content_with_above_label
+id: node.content_with_above_label.field_time_stamp_above
+field_name: field_time_stamp_above
+entity_type: node
+bundle: content_with_above_label
+label: 'Time stamp Above'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1506412442
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

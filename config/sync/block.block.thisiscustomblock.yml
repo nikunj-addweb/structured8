@@ -1,0 +1,31 @@
+uuid: 2d361bf9-555b-4372-b364-103df6d55332
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:624654dc-8598-4e4b-8a78-5d9ce12378f5'
+  module:
+    - block_content
+    - system
+  theme:
+    - d8structure
+id: thisiscustomblock
+theme: d8structure
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:624654dc-8598-4e4b-8a78-5d9ce12378f5'
+settings:
+  id: 'block_content:624654dc-8598-4e4b-8a78-5d9ce12378f5'
+  label: 'This is Custom Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

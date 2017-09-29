@@ -1,0 +1,21 @@
+uuid: c2fa72b9-033d-4fd8-8acd-f1ede65f1842
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_stamp_hidden
+    - node.type.content_with_hidden_label
+id: node.content_with_hidden_label.field_time_stamp_hidden
+field_name: field_time_stamp_hidden
+entity_type: node
+bundle: content_with_hidden_label
+label: 'Time stamp Hidden'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1506414569
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

@@ -1,0 +1,21 @@
+uuid: 4fe2a43c-1cbf-490b-81c9-a85d4ad93eb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_timestamp
+    - paragraphs.paragraphs_type.text
+id: paragraph.text.field_timestamp
+field_name: field_timestamp
+entity_type: paragraph
+bundle: text
+label: Timestamp
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1506408409
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

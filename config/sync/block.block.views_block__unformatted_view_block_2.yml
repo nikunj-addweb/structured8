@@ -1,0 +1,30 @@
+uuid: 51ef07c9-d9a8-4397-9514-4bcc470d9320
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.unformatted_view
+  module:
+    - system
+    - views
+  theme:
+    - d8structure
+id: views_block__unformatted_view_block_2
+theme: d8structure
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:unformatted_view-block_2'
+settings:
+  id: 'views_block:unformatted_view-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /unformatted-view-without-label
+    negate: false
+    context_mapping: {  }

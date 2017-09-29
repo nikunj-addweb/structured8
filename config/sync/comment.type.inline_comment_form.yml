@@ -1,0 +1,8 @@
+uuid: 11c63d22-ffb0-4d35-bf3a-a2d2e9a9a555
+langcode: en
+status: true
+dependencies: {  }
+id: inline_comment_form
+label: 'Inline comment form'
+target_entity_type_id: node
+description: ''

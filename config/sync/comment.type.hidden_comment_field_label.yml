@@ -1,0 +1,8 @@
+uuid: ea33c07b-fa59-4869-a235-5b352829cda9
+langcode: en
+status: true
+dependencies: {  }
+id: hidden_comment_field_label
+label: 'Hidden comment field label'
+target_entity_type_id: node
+description: ''

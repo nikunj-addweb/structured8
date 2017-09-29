@@ -1,0 +1,28 @@
+uuid: f1866cc9-bd2a-44cc-b074-157126929926
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_select_type_about
+    - node.type.content_with_above_label
+    - taxonomy.vocabulary.select_field_type
+id: node.content_with_above_label.field_select_type_about
+field_name: field_select_type_about
+entity_type: node
+bundle: content_with_above_label
+label: 'Select Type Above'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      select_field_type: select_field_type
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,23 @@
+uuid: 29b9d716-6eb3-4f9d-85c3-e37b1e2ab26d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_boolean_inline
+    - node.type.content_with_inline_label
+id: node.content_with_inline_label.field_boolean_inline
+field_name: field_boolean_inline
+entity_type: node
+bundle: content_with_inline_label
+label: 'Boolean Inline'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

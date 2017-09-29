@@ -1,0 +1,23 @@
+uuid: 08371bf2-0519-4071-9599-1294c9eb5e03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_above
+    - node.type.content_with_above_label
+  module:
+    - link
+id: node.content_with_above_label.field_link_above
+field_name: field_link_above
+entity_type: node
+bundle: content_with_above_label
+label: 'Link Above'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

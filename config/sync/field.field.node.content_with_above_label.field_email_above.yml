@@ -1,0 +1,19 @@
+uuid: 478f5e78-8f65-41eb-81a4-22af95111d43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_above
+    - node.type.content_with_above_label
+id: node.content_with_above_label.field_email_above
+field_name: field_email_above
+entity_type: node
+bundle: content_with_above_label
+label: 'Email Above'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

@@ -1,0 +1,28 @@
+uuid: 28520117-1aaf-4153-a6ed-36fbf58cf443
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_autocomplete_inline
+    - node.type.content_with_inline_label
+    - taxonomy.vocabulary.select_field_type
+id: node.content_with_inline_label.field_autocomplete_inline
+field_name: field_autocomplete_inline
+entity_type: node
+bundle: content_with_inline_label
+label: 'Autocomplete Inline'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      select_field_type: select_field_type
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

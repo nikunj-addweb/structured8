@@ -1,0 +1,27 @@
+uuid: 4bb9c1de-784d-408c-b356-b24653356f90
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.hidden_comment_field_label
+    - field.field.comment.hidden_comment_field_label.comment_body
+  module:
+    - text
+id: comment.hidden_comment_field_label.default
+targetEntityType: comment
+bundle: hidden_comment_field_label
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

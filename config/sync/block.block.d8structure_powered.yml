@@ -1,0 +1,22 @@
+uuid: 8d45679b-356d-46ba-b86e-9063bb2c74b3
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - d8structure
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: d8structure_powered
+theme: d8structure
+region: navigation
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

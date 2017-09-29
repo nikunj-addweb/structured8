@@ -1,0 +1,31 @@
+uuid: e8f166f3-ea5e-440d-9d88-a27a5c1aa80d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:624654dc-8598-4e4b-8a78-5d9ce12378f5'
+  module:
+    - block_content
+    - system
+  theme:
+    - cog
+id: cog_thisiscustomblock
+theme: cog
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:624654dc-8598-4e4b-8a78-5d9ce12378f5'
+settings:
+  id: 'block_content:624654dc-8598-4e4b-8a78-5d9ce12378f5'
+  label: 'This is Custom Block'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

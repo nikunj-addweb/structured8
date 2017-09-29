@@ -1,0 +1,30 @@
+uuid: 5003484c-f74d-463f-8836-ae9a9d05facc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.grid_view
+  module:
+    - system
+    - views
+  theme:
+    - d8structure
+id: views_block__grid_view_block_1
+theme: d8structure
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:grid_view-block_1'
+settings:
+  id: 'views_block:grid_view-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /grid-view
+    negate: false
+    context_mapping: {  }

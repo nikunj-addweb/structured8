@@ -1,0 +1,154 @@
+uuid: ff20a06b-227f-411c-bf05-f5f564164c16
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.hidden_comment_field_label.default
+    - field.field.node.content_with_hidden_label.body
+    - field.field.node.content_with_hidden_label.field_autocomplete_hidden
+    - field.field.node.content_with_hidden_label.field_boolean_hidden
+    - field.field.node.content_with_hidden_label.field_comments_hidden
+    - field.field.node.content_with_hidden_label.field_date_hidden
+    - field.field.node.content_with_hidden_label.field_email_hidden
+    - field.field.node.content_with_hidden_label.field_file_hidden
+    - field.field.node.content_with_hidden_label.field_image_hidden
+    - field.field.node.content_with_hidden_label.field_link_hidden
+    - field.field.node.content_with_hidden_label.field_list_hidden
+    - field.field.node.content_with_hidden_label.field_number_hidden
+    - field.field.node.content_with_hidden_label.field_select_type_hidden
+    - field.field.node.content_with_hidden_label.field_time_stamp_hidden
+    - node.type.content_with_hidden_label
+  module:
+    - comment
+    - datetime
+    - file
+    - image
+    - link
+    - options
+    - text
+    - user
+id: node.content_with_hidden_label.default
+targetEntityType: node
+bundle: content_with_hidden_label
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_autocomplete_hidden:
+    weight: 112
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_boolean_hidden:
+    weight: 107
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+  field_comments_hidden:
+    weight: 113
+    label: hidden
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_date_hidden:
+    weight: 102
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_email_hidden:
+    weight: 111
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_file_hidden:
+    weight: 105
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_image_hidden:
+    weight: 106
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_link_hidden:
+    weight: 108
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_list_hidden:
+    weight: 103
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_number_hidden:
+    weight: 110
+    label: hidden
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_select_type_hidden:
+    weight: 104
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_time_stamp_hidden:
+    weight: 109
+    label: hidden
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

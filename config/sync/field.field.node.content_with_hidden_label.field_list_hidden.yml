@@ -1,0 +1,21 @@
+uuid: 82b844b9-1ec2-44ce-87ff-691fa9e5bee7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_hidden
+    - node.type.content_with_hidden_label
+  module:
+    - options
+id: node.content_with_hidden_label.field_list_hidden
+field_name: field_list_hidden
+entity_type: node
+bundle: content_with_hidden_label
+label: 'List Hidden'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

@@ -1,0 +1,23 @@
+uuid: 26589b4f-9cb2-4411-a387-591484a98573
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_inline
+    - node.type.content_with_inline_label
+id: node.content_with_inline_label.field_number_inline
+field_name: field_number_inline
+entity_type: node
+bundle: content_with_inline_label
+label: 'Number Inline'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,23 @@
+uuid: 98ba3f1c-96f3-48ab-89c3-b343b7a83b74
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_above
+    - node.type.content_with_above_label
+id: node.content_with_above_label.field_number_above
+field_name: field_number_above
+entity_type: node
+bundle: content_with_above_label
+label: 'Number Above'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal
